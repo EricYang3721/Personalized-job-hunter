@@ -1,0 +1,13 @@
+setup.py
+jobs/__init__.py
+jobs/items.py
+jobs/middlewares.py
+jobs/pipelines.py
+jobs/settings.py
+jobs/spiders/__init__.py
+jobs/spiders/nyJobs.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
