@@ -9,8 +9,9 @@ import re
 from sklearn.feature_extraction.text import CountVectorizer
 import numpy as np
 from sklearn.neighbors import NearestNeighbors
+from read_data_from_sql import read_data
 
-data = pd.read_csv('data/nyJobs.csv')
+data = read_data()
 data = data.drop_duplicates()
 data.location[data.location=='New York City, NY'] = 'New York, NY'
 data.location[data.location=='Nyc, NY'] = 'New York, NY'
